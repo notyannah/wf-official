@@ -1,6 +1,6 @@
 <?php
-	mysql_connect("localhost","root","");
-	mysql_select_db("dbwefix");
+	mysql_connect("remotemysql.com","OKKhbJZJPV","ahb5auXghn");
+	mysql_select_db("OKKhbJZJPV");
 	session_start();
 	
 	function distance($lat1, $lon1, $lat2, $lon2) {
